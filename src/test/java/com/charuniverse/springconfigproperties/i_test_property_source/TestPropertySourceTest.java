@@ -1,4 +1,4 @@
-package com.charuniverse.springconfigproperties.i_test_property_source.h_property_source;
+package com.charuniverse.springconfigproperties.i_test_property_source;
 
 import lombok.Getter;
 import org.junit.jupiter.api.Assertions;
