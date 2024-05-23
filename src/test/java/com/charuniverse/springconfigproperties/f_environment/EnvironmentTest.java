@@ -16,7 +16,7 @@ public class EnvironmentTest {
     void testEnvironment() {
         var javaHome = environment.getProperty("JAVA_HOME");
         // doesn't work on windows!
-        // Assertions.assertEquals("C:\Program Files\Java\jdk-22", appName);
+        // Assertions.assertEquals("C:\Program Files\Java\jdk-22", javaHome);
         System.out.println(javaHome);
     }
 
