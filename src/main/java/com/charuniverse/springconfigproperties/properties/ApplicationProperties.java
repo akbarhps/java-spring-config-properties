@@ -4,6 +4,8 @@ import lombok.Getter;
 import lombok.Setter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+import java.time.Duration;
+import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
@@ -15,6 +17,8 @@ public class ApplicationProperties {
     private String name;
     private Integer version;
     private Boolean productionMode;
+    private Date defaultDate;
+    private Duration defaultTimeout;
     private DatabaseProperties database;
 
     @Getter
